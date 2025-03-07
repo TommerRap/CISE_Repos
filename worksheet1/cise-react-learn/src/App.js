@@ -11,7 +11,7 @@ function App() {
         </p>
         <a
           className="App-link"
-          href="https://aut.ac.nz"
+          href="https://aut.ac.nz/rainbow"
           target="_blank"
           rel="noopener noreferrer"
         >
