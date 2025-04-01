@@ -2,17 +2,17 @@ name: CI_action
 
 on:
   push:
-    branches:[LogoLink]
+    branches: [main]
   pull_request:
-    branches:[LogoLink]
+    branches: [main]
 
 jobs:
   build:
-    runs-on:ubuntu-latest
+    runs-on: ubuntu-latest
 
     strategy:
       matrix:
-        node-version:[12.x]
+        node-version: [12.x]
 
     steps:
       - name: Checkout repository
@@ -29,6 +29,6 @@ jobs:
       - name: RUn the tests
         run: npm test
 
-      -name: Build
+      - name: Build
         run: npm run build
     
