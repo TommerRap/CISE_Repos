@@ -1,0 +1,20 @@
+{
+  "name": "cise_repos",
+  "version": "1.0.0",
+  "description": "Repository for EISE701",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TommerRap/CISE_Repos.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TommerRap/CISE_Repos/issues"
+  },
+  "homepage": "https://github.com/TommerRap/CISE_Repos#readme"
+}
