@@ -10,6 +10,10 @@ jobs:
   build:
     runs-on: ubuntu-latest
 
+    defaults:
+      run:
+        working-directory: ./worksheet2/front-end
+        
     strategy:
       matrix:
         node-version: [14.x]
@@ -26,7 +30,7 @@ jobs:
       - name: Install dependencies 
         run: npm install
 
-      - name: RUn the tests
+      - name: Rnn the tests
         run: npm test
 
       - name: Build
